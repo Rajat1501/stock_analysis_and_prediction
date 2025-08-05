@@ -77,27 +77,13 @@ The **target variable** is a binary flag indicating if `Tomorrow's Close > Today
 * Scikit-learn
 * Joblib
 
-#### Installation
-
-1.  Clone the repository:
-    ```bash
-    git clone [your-repository-link]
-    cd [repository-name]
-    ```
-2.  Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(You may need to create a `requirements.txt` file)*
 
 #### Usage
 
-1.  **Place your data**: Ensure your CSV data file (e.g., `DMART_with_indicators_.csv`) is accessible.
+1.  **Place your data**: Ensure CSV data file (e.g., `DMART_with_indicators_.csv`) is accessible. You can download the nifty50 5min data from kaggle      https://www.kaggle.com/datasets/debashis74017/nifty-50-minute-data
 2.  **Configure the script**: Open the Python script and update the `FILEPATH` variable to point to your data file.
-3.  **Run the training script**:
-    ```bash
-    python your_script_name.py
-    ```
+3.  **Run the training script**
+    
 The script will handle data preparation, model training, and evaluation. The best model will be saved as `best_stock_predictor.keras` and the data scaler as `data_scaler.joblib`.
 
 ---
