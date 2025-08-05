@@ -101,6 +101,21 @@ Upon completion of training, the script provides a detailed performance report o
 These metrics give a nuanced understanding of the model's real-world utility for financial forecasting.
 
 ---
+--- Final Model Performance ---
+* **Test Accuracy: 0.9061**
+    -> What it means: Overall, what percentage of predictions were correct?
+
+* **Test Precision: 0.9139**
+    -> What it means: Of all the times the model predicted 'UP', how often was it right? (Measures signal quality)
+
+* **Test Recall: 0.8841**
+    -> What it means: Of all the times the market actually went 'UP', how many did the model catch? (Measures opportunity capture)
+
+* **Test F1-Score: 0.8987**
+    -> What it means: A balanced score between Precision and Recall. A good overall measure of a model's robustness.
+
+* **Test ROC AUC: 0.9667**
+    -> What it means: Measures the model's ability to distinguish between the 'UP' and 'DOWN' classes across all probability thresholds.
 
 ### Future Work
 
